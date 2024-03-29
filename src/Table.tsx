@@ -40,7 +40,7 @@ const Table = () => {
   React.useEffect(() => {
     setData(groupDataByProduct(data));
   }, []);
-  console.log(_data);
+
   return (
     <div className="w-100">
       <InputGroup className="mb-3 search-bar">
