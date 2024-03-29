@@ -7,6 +7,7 @@ export interface Data {
   [index: string]: string | number;
   product: string;
   country: string;
+  countryCode: string;
   transactions: number;
   value: number;
   quantity: number;
@@ -22,4 +23,10 @@ export interface TableData {
   quantity: number;
   containers: number;
   weight: number;
+}
+
+export interface MapData {
+  country: string;
+  countryCode: string;
+  data: TableData[];
 }
