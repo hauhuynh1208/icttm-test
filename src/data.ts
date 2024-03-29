@@ -4,6 +4,7 @@ export const data: Array<Data> = [
   {
     product: "Molasses",
     country: "Vietnam",
+    countryCode: "VN",
     transactions: 1000,
     value: 2000000,
     quantity: 100000,
@@ -13,6 +14,7 @@ export const data: Array<Data> = [
   {
     product: "Molasses",
     country: "US",
+    countryCode: "US",
     transactions: 1000,
     value: 2000000,
     quantity: 100000,
@@ -22,6 +24,7 @@ export const data: Array<Data> = [
   {
     product: "Tobacco",
     country: "Vietnam",
+    countryCode: "VN",
     transactions: 1000,
     value: 2000000,
     quantity: 100000,
@@ -31,6 +34,7 @@ export const data: Array<Data> = [
   {
     product: "Tobacco",
     country: "US",
+    countryCode: "US",
     transactions: 1000,
     value: 2000000,
     quantity: 100000,
@@ -40,6 +44,7 @@ export const data: Array<Data> = [
   {
     product: "Tobacco",
     country: "China",
+    countryCode: "CN",
     transactions: 1000,
     value: 2000000,
     quantity: 100000,
@@ -49,6 +54,7 @@ export const data: Array<Data> = [
   {
     product: "Al Fakher",
     country: "Vietnam",
+    countryCode: "VN",
     transactions: 1000,
     value: 2000000,
     quantity: 100000,
@@ -58,6 +64,7 @@ export const data: Array<Data> = [
   {
     product: "Al Fakher",
     country: "US",
+    countryCode: "US",
     transactions: 1000,
     value: 2000000,
     quantity: 100000,
@@ -67,6 +74,7 @@ export const data: Array<Data> = [
   {
     product: "Al Fakher",
     country: "China",
+    countryCode: "CN",
     transactions: 1000,
     value: 2000000,
     quantity: 100000,
@@ -76,6 +84,7 @@ export const data: Array<Data> = [
   {
     product: "Carton",
     country: "Vietnam",
+    countryCode: "VN",
     transactions: 1000,
     value: 2000000,
     quantity: 100000,
@@ -85,6 +94,7 @@ export const data: Array<Data> = [
   {
     product: "Carton",
     country: "US",
+    countryCode: "US",
     transactions: 1000,
     value: 2000000,
     quantity: 100000,
@@ -94,6 +104,7 @@ export const data: Array<Data> = [
   {
     product: "Carton",
     country: "China",
+    countryCode: "CN",
     transactions: 1000,
     value: 2000000,
     quantity: 100000,
@@ -103,6 +114,7 @@ export const data: Array<Data> = [
   {
     product: "Shoe",
     country: "Brazil",
+    countryCode: "BR",
     transactions: 1000,
     value: 2000000,
     quantity: 100000,
@@ -112,6 +124,7 @@ export const data: Array<Data> = [
   {
     product: "Shoe",
     country: "US",
+    countryCode: "US",
     transactions: 1000,
     value: 2000000,
     quantity: 100000,
@@ -121,6 +134,7 @@ export const data: Array<Data> = [
   {
     product: "Shoe",
     country: "China",
+    countryCode: "CN",
     transactions: 1000,
     value: 2000000,
     quantity: 100000,
@@ -129,7 +143,8 @@ export const data: Array<Data> = [
   },
   {
     product: "Banana",
-    country: "UK",
+    country: "United Kingdom",
+    countryCode: "GB",
     transactions: 1000,
     value: 2000000,
     quantity: 100000,
@@ -139,6 +154,7 @@ export const data: Array<Data> = [
   {
     product: "Banana",
     country: "Australia",
+    countryCode: "AU",
     transactions: 1000,
     value: 2000000,
     quantity: 100000,
@@ -148,6 +164,7 @@ export const data: Array<Data> = [
   {
     product: "Banana",
     country: "China",
+    countryCode: "CN",
     transactions: 1000,
     value: 2000000,
     quantity: 100000,
@@ -157,6 +174,7 @@ export const data: Array<Data> = [
   {
     product: "Cotton",
     country: "UK",
+    countryCode: "GB",
     transactions: 1000,
     value: 2000000,
     quantity: 100000,
@@ -166,6 +184,7 @@ export const data: Array<Data> = [
   {
     product: "Cotton",
     country: "Australia",
+    countryCode: "AU",
     transactions: 1000,
     value: 2000000,
     quantity: 100000,
@@ -175,6 +194,7 @@ export const data: Array<Data> = [
   {
     product: "Cotton",
     country: "China",
+    countryCode: "CN",
     transactions: 1000,
     value: 2000000,
     quantity: 100000,
@@ -184,6 +204,7 @@ export const data: Array<Data> = [
   {
     product: "Shirt Button",
     country: "Germany",
+    countryCode: "DE",
     transactions: 1000,
     value: 2000000,
     quantity: 100000,
@@ -193,6 +214,7 @@ export const data: Array<Data> = [
   {
     product: "Shirt Button",
     country: "Congo",
+    countryCode: "CD",
     transactions: 1000,
     value: 2000000,
     quantity: 100000,
@@ -202,6 +224,7 @@ export const data: Array<Data> = [
   {
     product: "Shirt Button",
     country: "Egypt",
+    countryCode: "EG",
     transactions: 1000,
     value: 2000000,
     quantity: 100000,
