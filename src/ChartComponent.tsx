@@ -4,6 +4,7 @@ import { TableData } from "./interface";
 import { groupDataByProduct } from "./utils/generators";
 import { data } from "./data";
 import BarChart from "./BarChart";
+import PieChart from "./PieChart";
 
 const ChartComponent = () => {
   const chartTypes: string[] = ["bar", "pie", "line"];
@@ -39,7 +40,11 @@ const ChartComponent = () => {
           </Button>
         ))}
       </div>
-      <BarChart data={_data} dimension={dimension} />
+      {chartType === "pie" ? (
+        <PieChart data={_data} dimension={dimension} />
+      ) : (
+        <BarChart data={_data} dimension={dimension} />
+      )}
       <ButtonGroup aria-label="Basic example" size="sm">
         {dimensions.map((d) => (
           <Button
